@@ -37,6 +37,7 @@ color: #173A2B;
 	flex-wrap:wrap;
 	justify-content:center;
 	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 	
 }
 
