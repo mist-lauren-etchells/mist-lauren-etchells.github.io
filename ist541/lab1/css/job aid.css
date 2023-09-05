@@ -5,6 +5,7 @@ body {
 	background-color: #E5C7B1;   /* background color */
 	color: #173A2B;          /* text color for the entire page */
 	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
 }
 
 h1, h2 { 
