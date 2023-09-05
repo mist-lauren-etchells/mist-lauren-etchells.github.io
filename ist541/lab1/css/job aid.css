@@ -15,7 +15,7 @@ color: #173A2B;
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 85%;
+	width: 75%;
 	margin: 0 auto;    /* centers wrapper */
 }
 
@@ -31,7 +31,7 @@ color: #173A2B;
 
 .stepContent{
 	background-color: #FBE8D8;
-	padding:7px;
+	padding:5px;
 	display: flex; /* creates multiple column layout */ 
 	flex-wrap:wrap;
 	justify-content:center;
