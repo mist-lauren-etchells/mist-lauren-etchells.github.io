@@ -32,10 +32,10 @@ color: #173A2B;
 .stepContent{
 	background-color: #FBE8D8;
 	padding:7px;
-	display: flex;
+	display: flex; /* creates multiple column layout */ 
 	flex-wrap:wrap;
 	justify-content:center;
-	border-radius: 40px;
+	
 }
 
 .stepDescription {
