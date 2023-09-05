@@ -57,6 +57,12 @@ background-color: #E5C7B1;
     height:auto;
 }
 
+.stepimage2 img { width: 35%; padding:5px; text-align: left; background-color: #E5C7B1;
+}
+.stepImage2 img {
+    width:50%;
+    height:auto;
+}
 strong {
   font-weight: 800;
 }
