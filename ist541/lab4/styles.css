@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #F3F4BFE;
+	color: #498B74;   
+	background-image: url("img/zetong-li-uzxkp0QX6gY-unsplash.jpg"); background-attachment: fixed;
+	/* text color for the entire document */
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#wrapper {
+	width:900px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: rgba(255, 255, 255, 0.8);  /* creates white background with 80% opacity */
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: #498B74;  color: white; text-align: center; /* sets background color for table cells*/
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+audio { 
+	width:200px;   /* sets the width of the audio controls */
+}
+video {align-content: center;
+margin:0 auto; }
+
+image {max-width: 50;
+height: auto;}
+a {
+	padding: 5px; padding-left: 300px; padding-right: 300px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  #84A69D; 
+	color:  mintcream; 
+	border-radius: 20;
+}
+a:hover {font-size:120%;
+	background-color: #84A69D; 
+	color: #C8733A; }
