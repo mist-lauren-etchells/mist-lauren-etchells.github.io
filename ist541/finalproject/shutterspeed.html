@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final project page 5</title>
+<link href="css/job aid.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<div id="wrapper">
+<body>
+		<h1> Introduction to Digital Photography </h1>
+	<a href="index.html">  Home </a>
+	<a href="photosteps.html"> Taking a Photo</a>
+	<a href="lenses.html"> Selecting a Lens </a>
+	<a href="aperture.html"> Aperture </a>
+	<a href="shutterspeed.html"> Shutter Speed</a>
+	<a href="lighting.html"> Lighting</a>
+	<a href="editing.html"> Photo Editing</a>
+<br><br>
+	
+	<h2> Shutter Speed</h2>
+	<br>
+	<p> Another setting you can adjust when taking a photo is shutter speed. Shutter speed, like aperture, affects how much light is captured in your photograph, as well as the way that motion appears in your final image. A slow shutter speed can capture more light, but blurs motion, while a fast shutter speed lets in less light but allows for a crisper capture of moving objects. Click <a href="https://photographylife.com/what-is-shutter-speed-in-photography" style=color:cornflowerblue;padding:0;background-color:transparent;> here </a> to read more about shutter speed. </p>
+	<p>See the chart below for more information on how shutter speed affects your photograph.</p> <br>
+	<img src="img/shutter-speed-chart-infographic-710x1024.png" width="400"> </img>
+		<br>
+	<h2>Is this photo taken with a slow or fast shutter speed?</h2>
+ 
+<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+	<img onmouseenter="showAnswer()" id="shutterspeed_image"  src="img/murilo-gomes--4Lno0Kmxsk-unsplash.jpg"   />
+<img onmouseleave="hideAnswer()" id="shutterspeed_answer" src="img/shutterspeedanswer1.jpeg"/>
+ 
+      <div id="answer">
+		<script>
+ function showAnswer() {
+	   $("#shutterspeed_image").hide();
+	   $("#shutterspeed_answer").show();
+	   $("#answer").html("<h2 style='color:blue'>The blurred movement of the water indicates a slow shutter speed.</h2>");
+	}
+
+function hideAnswer() {
+	   $("#shutterspeed_image").show();
+	   $("#shutterspeed_answer").hide();
+	   $("#answer").html("");  
+	}
+</script>
+		  </div>
+	</div>
+	<br>
+	<br>
+	<a href="lighting.html"> Next page </a>
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Editing</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="css/job aid.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+		<h1> Introduction to Digital Photography </h1>
+	<a href="index.html">  Home </a>
+	<a href="photosteps.html"> Taking a Photo</a>
+	<a href="lenses.html"> Selecting a Lens </a>
+	<a href="aperture.html"> Aperture </a>
+	<a href="shutterspeed.html"> Shutter Speed</a>
+	<a href="lighting.html"> Lighting</a>
+	<a href="editing.html"> Photo Editing</a>
+<br><br>
+	 <div id="wrapper">
+	<h2> Editing your photos in Adobe Lightroom</h2>
+	<!-- iFrame code will be added below -->
+	
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5x3Hy7zie94?si=WqTiadebaFGsfJ61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+	<br>
+	<br>
+<div>
+<h2>According to the video, what is the proper order of operations for editing photos?</h2>
+<h3>Click on one of the following choices</h3>
+
+<h4 onclick="rightAnswer()" class="choices"> Correction, Color, Finishing </h4>
+<h4 onclick="wrongAnswer1()" class="choices"> Color, Correction, Finishing </h4>
+<h4 onclick="wrongAnswer1()" class="choices"> Finishing, Correction, Color </h4>
+<h4 onclick="wrongAnswer1()" class="choices"> Color, Finishing, Correction </h4>
+
+	
+</div>
+	<div id="feedback1"></div>
+   <script>
+      function rightAnswer(){
+         $("#feedback1").html("<h2 style='color:green'> Correct! You correct first, then focus on color, then finishing the photo. </h2>");
+      }
+	 
+   function wrongAnswer1(){
+      $("#feedback1").html("<h2 style='color:red'> Incorrect. Try again. </h2>");
+   }
+ 
+   </script>
+		
+<br>
+	<br>
+	
+ <div>
+<h2>What does saturation refer to when editing color in photos?</h2>
+<h3>Click on one of the following choices</h3>
+
+<h4 onclick="wrongAnswer2()" class="choices"> The brightness of a given color </h4>
+<h4 onclick="wrongAnswer2()" class="choices"> The contrast of a given color </h4>
+<h4 onclick="rightAnswer2()" class="choices"> The amount of color of a given color </h4>
+<h4 onclick="wrongAnswer2()" class="choices"> The frequency of a given color in a photo </h4>
+
+
+</div>
+	<div id="feedback2"></div>
+	<script>
+     function rightAnswer2(){
+         $("#feedback2").html("<h2 style='color:green'> Correct! Saturation refers to the amount or intensity of color. </h2>");
+      }
+	 
+   function wrongAnswer2(){
+      $("#feedback2").html("<h2 style='color:red'> Incorrect. Try again. </h2>");
+   }
+	</script>
+	
+		<br>
+	<br>
+		<a href="index.html"> Back to home page </a>
+	</div>
+</body>
+</html>
+

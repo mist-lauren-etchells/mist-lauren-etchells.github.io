@@ -1,0 +1,128 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+font-family: 'Roboto', sans-serif;
+	font-size: "18";
+	text-align:center;   /* centers all content */	
+}
+
+h1, h2, h3, h4 { 
+	text-align:center;  /* centers h1 and h2 content */
+color: black;
+	font-family: 'Merriweather', serif;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:50%;
+	margin:0 auto;       /* centers wrapper */
+}
+#header {width:100%; margin:0 auto; font-family: 'Roboto', sans-serif;}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:5px;
+	text-align:center;
+	background-color: #7096D1;
+	font-weight: bold;
+	font-size: 150%;
+	border-radius: 50px;
+ }
+
+.stepContent{
+	background-color: #7096D1;
+	padding:5px;
+	display: flex; /* creates multiple column layout */ 
+	flex-wrap:wrap;
+	justify-content:center;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	
+}
+
+.stepDescription {
+	width:50%;
+	padding:5px;
+	line-height:145%;
+	text-align:justify;
+}
+
+.stepImage {
+	width: 40%;	
+	padding:2px;
+text-align: center;
+background-color: #7096D1;
+
+}
+
+.stepImage img {
+    width:80%;
+    height:auto;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.note {background-color: #CB6B4D;
+padding:10px;
+border-radius:20px;}
+
+.material-icons {
+	color:black; 
+	font-size:2em;
+}
+a {
+	padding: 5px;
+margin: 3px;
+	font-size: 100%;
+	background-color:  white; 
+	color:  black; 
+	border-radius: 20;
+}
+a:hover {
+	font-size:110%;
+	background-color: black; 
+	color: white; 
+}
+p {text-align: justify;}
+.choices {
+cursor: pointer;
+}
+ #shutterspeed_image {
+border: black 5px solid;
+	 width: 50%;
+}
+ 
+ #shutterspeed_answer {
+display: none; /* hides content */
+border: black 5px solid;
+	 width:50%;
+}
+ #aperture_image {
+border: black 5px solid;
+	 width: 50%;
+
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+}
+
+.image-wrapper {
+    text-align: center;
+    margin: 10px;
+    width: 200px; /* Set a fixed width for each image-wrapper */
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.caption {
+    margin-top: 10px;
+	text-align:center
+}
+
