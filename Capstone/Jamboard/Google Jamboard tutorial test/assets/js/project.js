@@ -3229,7 +3229,7 @@ vbwr:[-1,-1,1,1],
 vb:[-1,-1,1,1]
 },
 si14075:{
-name:'Google_jamboard_introductory_demo_mp4_1',
+name:'Web_Video_2',
 type:365,
 from:523,
 to:612,
@@ -3261,7 +3261,7 @@ efph:{
 eflh:[],
 iflbx:false,
 ipflbx:true,
-vestr:0,
+vestr:1,
 vim:0,
 trin:0,
 trout:0,
@@ -3359,9 +3359,9 @@ visible:1,
 effectiveVi:1,
 JSONEffectData:false,
 videoThumbnailSrc:'',
-mp4:'vr/Vi1785.mp4',
+mp4:'https://youtu.be/Uc-efNYdEcM?feature=shared',
 vsf:0,
-vst:184.9,
+vst:185,
 o:100,
 vbwr:[-475,-237,1447,845],
 vb:[-475,-237,1447,845]
@@ -5725,7 +5725,6 @@ sk:'Blank',
 slideTag:'',
 type:30,
 vidCCMap:{
-14075:'"[{\"id\":\"caption__6200__1\",\"text\":\"Type caption here\",\"start\":0,\"end\":184.85,\"duration\":184.85,\"editorState\":{\"blocks\":[{\"key\":\"2bjs3\",\"text\":\"Type caption here\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":17,\"style\":\"hlnkt:wp\"},{\"offset\":0,\"length\":17,\"style\":\"textOutlineEnable:false\"},{\"offset\":0,\"length\":17,\"style\":\"opacity:1\"},{\"offset\":0,\"length\":17,\"style\":\"hlnke:true\"},{\"offset\":0,\"length\":17,\"style\":\"backgroundColor:unset\"},{\"offset\":0,\"length\":17,\"style\":\"defaultBackgroundColor:#E8D01B\"},{\"offset\":0,\"length\":17,\"style\":\"textHighlightEnable:false\"},{\"offset\":0,\"length\":17,\"style\":\"textShadowEnable:false\"},{\"offset\":0,\"length\":17,\"style\":\"overridden:false\"},{\"offset\":0,\"length\":17,\"style\":\"hlnk:\"}],\"entityRanges\":[],\"data\":{\"presetId\":\"text-closedcaptions\",\"listDepth\":\"0\",\"listType\":\"S_Bullets08\",\"listIndent\":\"100%\",\"listSize\":\"100%\",\"listColor\":\"#666666\",\"overridden\":\"false\"}}],\"entityMap\":{}}}]"',
 14115:'"{}"',
 14155:'"{}"'
 }
@@ -84731,7 +84730,7 @@ var6174:'variableEditBoxNum_1'
 project:{
 fps:30,
 hasTOC:1,
-hasCC:true,
+hasCC:false,
 showClosedCaptions:true,
 w:1792,
 h:1120,
@@ -92573,7 +92572,7 @@ ipiv:{
 cp.model.videos=[
 ];
 cp.model.slideVideos=[
-'vr/Vi1785.mp4',
+'https://youtu.be/Uc-efNYdEcM?feature=shared',
 'vr/Vi1582.mp4',
 'vr/Vi2585.mp4',
 'vr/Vi12526.mp4',
